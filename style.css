@@ -1,0 +1,239 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --header-color:hsl(210, 10%, 33%);
+    --text-color:hsl(201, 11%, 66%); 
+}
+body{
+    font-size: 62.5%;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.first-section,.last-section{
+    padding: 8rem 0 10rem 0;
+}
+.firs-section-container,.last-container{
+     max-width: 54rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  
+}
+.first-section-logo{   
+  margin-left: 50%;
+  width: 7rem;
+transform: translateX(-50%);
+}
+.first-section-text-box{
+    padding-top: 3rem;
+    margin-bottom: 9rem;
+}
+.first-section-second-text{
+    text-align: center;
+}
+.first-header{
+    font-size: 2.4rem;
+}
+.first-section-headers,.second-header{
+    text-align: center;
+    color: var(--header-color);
+    font-weight: 600;
+}
+.second-sec-img{
+    width: 100%;
+}
+
+
+.first-section-text,
+.third-section-text,
+.fourth-section-text{
+    padding:1rem 5rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    text-align: center;
+     font-weight: 400; 
+}
+.first-section-first-text{
+    font-size:18px;  
+}
+.download-buttons{
+    transition: all 1s ease-in;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top:2.6rem;
+}
+.download-buttons .button{
+    text-decoration: none;
+    padding: 1rem 2.4rem;
+    font-size: 15px;
+    border-radius: 1.8rem;
+    transition: all 1s ease-in;
+
+}
+.download-ios{
+    background-color: hsl(171, 66%, 44%) ;
+    color: #fff;
+    box-shadow: 0 2px 0 0 hsl(171, 66%, 30%),0 4px 8px  hsl(171, 66%, 70%);
+}
+.download-mac{  background-color:  hsl(233, 100%, 69%);
+     color: #fff;
+     box-shadow: 0 2px 0 0 hsl(233, 100%, 65%),0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.download-ios:hover,.download-mac:hover{
+  opacity:0.8;
+}
+.first-section-second-text{
+    font-size:17px;
+}
+.second-header{
+    font-size: 1.8rem;
+}
+.first-section-second-text-box{
+    padding-top: 7rem;
+}
+.second-section-container{
+    display: grid;
+    gap: 6rem;
+    margin-left: -2rem;
+    overflow: hidden; 
+    grid-template-columns: 1.5fr 1fr;
+     
+}
+.computer-spaciality{
+   display: flex;
+    flex-direction: column;
+    padding: 3rem 11rem 1.2rem 0;
+}
+
+.spaciality-header{
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+    color: var(--header-color);
+}
+.spaciality-text{
+    color:  var(--text-color);
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+.third-sec-img{
+    padding-top: 5rem;
+    width: 100%;
+}
+.third-section{
+    padding: 6rem 0 6rem 0;
+}
+.third-section-container{
+   
+    max-width: 53rem; 
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+}
+.third-section-text{
+    color:var(--text-color) ;
+    font-size:16px;
+}
+.fourth-section-text{
+    font-size: 14px;
+}
+.fourth-section,.history-footer{
+  padding: 0 2rem;
+}
+.fourth-section-container,.footer_container{
+    max-width: 64rem;
+    margin: 0 auto;
+}
+.fourth-section-text-box{
+    padding-bottom: 3.7rem;
+}
+.productivity-contianer{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 8rem;
+}
+.productivity-icon .icon{
+    text-align: center;
+    padding-bottom: 2.4rem;
+}
+.productivity-icon{
+    text-align: center;
+    padding: 6px;
+}
+.logo-container{
+    display: grid;
+  
+  grid-template-columns:repeat(5,1fr);
+  gap: 4rem;
+  
+   justify-items:center;
+
+}
+.logo-container img{
+    width:100%;  
+}
+.history-footer{
+    background-color: rgb(245, 246, 248);
+}
+.footer_container{
+  
+    display: flex;
+    justify-content: space-between;
+    padding:2.6rem 0;
+}
+.footer_logo_text_box{
+    display: flex;
+    gap: 7rem;
+
+}
+.footer_logo{
+    width: 10%;
+}
+.footer_icons_box{
+    display: flex;
+    align-items: center;
+}
+
+.footer_icons_box{
+    display: flex;
+    gap: 1.1rem;
+}
+.text_container{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+  
+   column-gap: 3.2rem;
+   row-gap: 14px;
+}
+.text_container li{
+    list-style: none;
+    font-size: 14px;  
+    color: rgb(120, 121, 125);
+}
+.text_container li:hover{
+    cursor: pointer;
+}
+.text_container li:hover{
+   color:  hsl(171, 66%, 44%);
+
+}
+
+.footer_icons_box svg:hover {
+   cursor: pointer;
+   fill:  hsl(171, 66%, 44%);
+}
+.footer_icons_box{
+    justify-content: center;
+    align-content: center;
+}
+
+  
+ 
+  
